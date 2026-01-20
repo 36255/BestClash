@@ -5,33 +5,28 @@ mode: Rule
 port: 7890
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: xx|a89b|puddincat07@Telegram
+  name: xx|52a9|puddincat07@Telegram
   password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
   server: switcher-nick-croquet.freesocks.work
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: lt|e58d|puddincat07@Telegram
+  name: lt|b722|puddincat07@Telegram
   password: l668XHPejoSNNuD66BYzyehaCpZexiF7
   port: 443
   server: 45.12.136.170
   type: ss
-- name: us|282b|puddincat07@Telegram
-  network: ws
-  password: iwangjie
-  port: 15805
-  server: 158.101.11.204
+- name: xx|1708|puddincat07@Telegram
+  password: 30077070-596e-48ea-9400-14c8ed07bd97
+  port: 40130
+  server: tuntro011.instconn.com
   skip-cert-verify: true
-  sni: nodes.830901.xyz
+  sni: cntwbta.686911.xyz
   type: trojan
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: '%2F%3Fed%3D2560'
 - alterId: 32
   cipher: auto
   client-fingerprint: chrome
-  name: xx|ecad|puddincat07@Telegram
+  name: xx|0615|puddincat07@Telegram
   network: ws
   port: 443
   server: vc.fly.dev
@@ -43,184 +38,206 @@ proxies:
     headers:
       host: vc.fly.dev
     path: /vc
-- name: xx|fab6|puddincat07@Telegram
-  password: 30077070-596e-48ea-9400-14c8ed07bd97
-  port: 40130
-  server: tuntro011.instconn.com
-  skip-cert-verify: true
-  sni: cntwbta.686911.xyz
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: ae|d935|puddincat07@Telegram
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 151.242.251.144
-  type: ss
-- cipher: aes-128-gcm
-  name: gb|8435|puddincat07@Telegram
-  password: shadowsocks
+  name: ca|7922|puddincat07@Telegram
+  password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
   port: 443
-  server: 141.98.101.182
+  server: 193.203.203.66
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: gb|ad3e|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  name: lt|9e9e|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 82.38.31.187
+  server: 45.87.175.28
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: de|a9c4|puddincat07@Telegram
-  password: xCoBqYZGaMivNlzIhjpIH5
-  port: 31212
-  server: 85.192.63.92
-  type: ss
-  udp: true
-- name: us|c6fd|puddincat07@Telegram
-  password: 2e3562a819634de686ade78e434c0963
+  name: nl|9857|puddincat07@Telegram
+  password: uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh
   port: 443
-  server: 104.16.192.148
+  server: 178.23.190.238
+  type: ss
+- name: us|cb56|puddincat07@Telegram
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  port: 443
+  server: 104.19.171.3
   skip-cert-verify: true
-  sni: jobscareerforstudent.com
+  sni: sherasheba.com
+  type: trojan
+  udp: true
+- name: sg|8c99|puddincat07@Telegram
+  password: txEolrwX7i
+  port: 443
+  server: 157.245.148.244
+  skip-cert-verify: true
+  sni: aka.ms
+  type: trojan
+  udp: true
+- name: ru|d180|puddincat07@Telegram
+  password: 85bce006-4885-11ee-8792-f23c9164ca5d
+  port: 1007
+  server: 176.32.35.167
+  skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: cn|6429|puddincat07@Telegram
-  password: 99301d55-a41f-4919-986b-1435996533aa
-  port: 26669
-  server: 120.238.122.207
+  name: ru|31ad|puddincat07@Telegram
+  password: Zu5sVdhPITkII1Rf9bUTjt0ws1nks4vgBoHhe7QxwEk0j3Ai
+  port: 51348
+  server: 146.185.198.44
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: gb|952e|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.176
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: at|3a9a|puddincat07@Telegram
-  password: 1ef9jGvAyzXLLnjssRFr8M
-  port: 25663
-  server: 94.228.169.114
+- cipher: aes-256-cfb
+  name: cy|4c39|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 213.169.137.221
   type: ss
   udp: true
-- name: xx|cbfd|puddincat07@Telegram
-  password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
-  port: 36311
-  server: 8t6w03.a3b5wy.xyz
-  skip-cert-verify: true
-  sni: tw03.abpilot.xyz
-  type: trojan
+- cipher: rc4-md5
+  name: xx|970b|puddincat07@Telegram
+  password: dbEcUJ
+  port: 24603
+  server: tw15.ktp.wtf
+  type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: xx|ddbd|puddincat07@Telegram
+- cipher: aes-256-gcm
+  name: ca|933a|puddincat07@Telegram
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 23.162.200.130
+  type: ss
+  udp: true
+- name: us|0f45|puddincat07@Telegram
   network: ws
-  port: 443
-  server: sy4.620720.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: sy4.620720.xyz
-    path: /
-- name: us|dd8c|puddincat07@Telegram
-  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
-  port: 443
-  server: 104.21.39.134
-  skip-cert-verify: true
-  sni: glc-tw1.windowsupdatea.com
-  type: trojan
-  udp: true
-- name: fr|cbec|puddincat07@Telegram
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.37.26.51
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: rc4-md5
-  name: xx|3758|puddincat07@Telegram
-  password: dbEcUJ
-  port: 24603
-  server: jp03.ktp.wtf
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
+- cipher: chacha20-ietf-poly1305
+  name: gb|ad4d|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
+- cipher: aes-256-gcm
+  name: us|12ef|puddincat07@Telegram
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 23.157.40.26
   type: ss
   udp: true
-- name: xx|d9d4|puddincat07@Telegram
-  password: ebd1c3e8-a136-49a5-a76c-88c4bf0a23aa
-  port: 30502
-  server: fr01.freeflyingcloud.xyz
-  skip-cert-verify: true
-  sni: fr01.freeflyingcloud.xyz
-  type: trojan
-  udp: true
-- cipher: rc4-md5
-  name: xx|1fcd|puddincat07@Telegram
-  password: dbEcUJ
-  port: 24603
-  server: sgp01.ktp.wtf
+- cipher: aes-256-cfb
+  name: es|7a35|puddincat07@Telegram
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
+  server: 5.188.181.201
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: tr|1b4d|puddincat07@Telegram
-  password: a8H2xE6f0ubGLeSvZrfQIWRDKE1LgY
-  port: 8881
-  server: 94.131.108.133
+  name: xx|8d43|puddincat07@Telegram
+  password: 3bf7be43-e331-4dad-856c-8d312dedea90
+  port: 34507
+  server: rk.izoizoizo.top
   type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: us|39c3|puddincat07@Telegram
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 38.121.43.65
+  type: ss
+  udp: true
+- name: xx|0d0b|puddincat07@Telegram
+  password: cd7239af-77ad-4628-a871-00acfa219f02
+  port: 56320
+  server: ip0axv1bbsu02k7-hk.1ytnode.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: us|99f8|puddincat07@Telegram
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: j3.pplo.online
+    mode: websocket
+    mux: false
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 172.67.192.20
+  type: ss
+  udp: true
+- name: us|d527|puddincat07@Telegram
+  password: 669d0ac7b5b64ebbb1abb75d5d540a5c
+  port: 443
+  server: 104.16.159.6
+  skip-cert-verify: true
+  sni: bangladeshipatri.com
+  type: trojan
   udp: true
 proxy-groups:
 - name: "\U0001F530 \u8282\u70B9\u9009\u62E9"
   proxies:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - xx|a89b|puddincat07@Telegram
-  - lt|e58d|puddincat07@Telegram
-  - us|282b|puddincat07@Telegram
-  - xx|ecad|puddincat07@Telegram
-  - xx|fab6|puddincat07@Telegram
-  - ae|d935|puddincat07@Telegram
-  - gb|8435|puddincat07@Telegram
-  - gb|ad3e|puddincat07@Telegram
-  - de|a9c4|puddincat07@Telegram
-  - us|c6fd|puddincat07@Telegram
-  - cn|6429|puddincat07@Telegram
-  - gb|952e|puddincat07@Telegram
-  - at|3a9a|puddincat07@Telegram
-  - xx|cbfd|puddincat07@Telegram
-  - xx|ddbd|puddincat07@Telegram
-  - us|dd8c|puddincat07@Telegram
-  - fr|cbec|puddincat07@Telegram
-  - xx|3758|puddincat07@Telegram
-  - xx|d9d4|puddincat07@Telegram
-  - xx|1fcd|puddincat07@Telegram
-  - tr|1b4d|puddincat07@Telegram
+  - xx|52a9|puddincat07@Telegram
+  - lt|b722|puddincat07@Telegram
+  - xx|1708|puddincat07@Telegram
+  - xx|0615|puddincat07@Telegram
+  - ca|7922|puddincat07@Telegram
+  - lt|9e9e|puddincat07@Telegram
+  - nl|9857|puddincat07@Telegram
+  - us|cb56|puddincat07@Telegram
+  - sg|8c99|puddincat07@Telegram
+  - ru|d180|puddincat07@Telegram
+  - ru|31ad|puddincat07@Telegram
+  - cy|4c39|puddincat07@Telegram
+  - xx|970b|puddincat07@Telegram
+  - ca|933a|puddincat07@Telegram
+  - us|0f45|puddincat07@Telegram
+  - gb|ad4d|puddincat07@Telegram
+  - us|12ef|puddincat07@Telegram
+  - es|7a35|puddincat07@Telegram
+  - xx|8d43|puddincat07@Telegram
+  - us|39c3|puddincat07@Telegram
+  - xx|0d0b|puddincat07@Telegram
+  - us|99f8|puddincat07@Telegram
+  - us|d527|puddincat07@Telegram
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
-  - xx|a89b|puddincat07@Telegram
-  - lt|e58d|puddincat07@Telegram
-  - us|282b|puddincat07@Telegram
-  - xx|ecad|puddincat07@Telegram
-  - xx|fab6|puddincat07@Telegram
-  - ae|d935|puddincat07@Telegram
-  - gb|8435|puddincat07@Telegram
-  - gb|ad3e|puddincat07@Telegram
-  - de|a9c4|puddincat07@Telegram
-  - us|c6fd|puddincat07@Telegram
-  - cn|6429|puddincat07@Telegram
-  - gb|952e|puddincat07@Telegram
-  - at|3a9a|puddincat07@Telegram
-  - xx|cbfd|puddincat07@Telegram
-  - xx|ddbd|puddincat07@Telegram
-  - us|dd8c|puddincat07@Telegram
-  - fr|cbec|puddincat07@Telegram
-  - xx|3758|puddincat07@Telegram
-  - xx|d9d4|puddincat07@Telegram
-  - xx|1fcd|puddincat07@Telegram
-  - tr|1b4d|puddincat07@Telegram
+  - xx|52a9|puddincat07@Telegram
+  - lt|b722|puddincat07@Telegram
+  - xx|1708|puddincat07@Telegram
+  - xx|0615|puddincat07@Telegram
+  - ca|7922|puddincat07@Telegram
+  - lt|9e9e|puddincat07@Telegram
+  - nl|9857|puddincat07@Telegram
+  - us|cb56|puddincat07@Telegram
+  - sg|8c99|puddincat07@Telegram
+  - ru|d180|puddincat07@Telegram
+  - ru|31ad|puddincat07@Telegram
+  - cy|4c39|puddincat07@Telegram
+  - xx|970b|puddincat07@Telegram
+  - ca|933a|puddincat07@Telegram
+  - us|0f45|puddincat07@Telegram
+  - gb|ad4d|puddincat07@Telegram
+  - us|12ef|puddincat07@Telegram
+  - es|7a35|puddincat07@Telegram
+  - xx|8d43|puddincat07@Telegram
+  - us|39c3|puddincat07@Telegram
+  - xx|0d0b|puddincat07@Telegram
+  - us|99f8|puddincat07@Telegram
+  - us|d527|puddincat07@Telegram
   type: url-test
   url: https://www.gstatic.com/youtube/img/emojis/emojis-png-7.json
 - name: "\U0001F3A5 NETFLIX"
@@ -228,27 +245,29 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - xx|a89b|puddincat07@Telegram
-  - lt|e58d|puddincat07@Telegram
-  - us|282b|puddincat07@Telegram
-  - xx|ecad|puddincat07@Telegram
-  - xx|fab6|puddincat07@Telegram
-  - ae|d935|puddincat07@Telegram
-  - gb|8435|puddincat07@Telegram
-  - gb|ad3e|puddincat07@Telegram
-  - de|a9c4|puddincat07@Telegram
-  - us|c6fd|puddincat07@Telegram
-  - cn|6429|puddincat07@Telegram
-  - gb|952e|puddincat07@Telegram
-  - at|3a9a|puddincat07@Telegram
-  - xx|cbfd|puddincat07@Telegram
-  - xx|ddbd|puddincat07@Telegram
-  - us|dd8c|puddincat07@Telegram
-  - fr|cbec|puddincat07@Telegram
-  - xx|3758|puddincat07@Telegram
-  - xx|d9d4|puddincat07@Telegram
-  - xx|1fcd|puddincat07@Telegram
-  - tr|1b4d|puddincat07@Telegram
+  - xx|52a9|puddincat07@Telegram
+  - lt|b722|puddincat07@Telegram
+  - xx|1708|puddincat07@Telegram
+  - xx|0615|puddincat07@Telegram
+  - ca|7922|puddincat07@Telegram
+  - lt|9e9e|puddincat07@Telegram
+  - nl|9857|puddincat07@Telegram
+  - us|cb56|puddincat07@Telegram
+  - sg|8c99|puddincat07@Telegram
+  - ru|d180|puddincat07@Telegram
+  - ru|31ad|puddincat07@Telegram
+  - cy|4c39|puddincat07@Telegram
+  - xx|970b|puddincat07@Telegram
+  - ca|933a|puddincat07@Telegram
+  - us|0f45|puddincat07@Telegram
+  - gb|ad4d|puddincat07@Telegram
+  - us|12ef|puddincat07@Telegram
+  - es|7a35|puddincat07@Telegram
+  - xx|8d43|puddincat07@Telegram
+  - us|39c3|puddincat07@Telegram
+  - xx|0d0b|puddincat07@Telegram
+  - us|99f8|puddincat07@Telegram
+  - us|d527|puddincat07@Telegram
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
   proxies:
@@ -267,27 +286,29 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - xx|a89b|puddincat07@Telegram
-  - lt|e58d|puddincat07@Telegram
-  - us|282b|puddincat07@Telegram
-  - xx|ecad|puddincat07@Telegram
-  - xx|fab6|puddincat07@Telegram
-  - ae|d935|puddincat07@Telegram
-  - gb|8435|puddincat07@Telegram
-  - gb|ad3e|puddincat07@Telegram
-  - de|a9c4|puddincat07@Telegram
-  - us|c6fd|puddincat07@Telegram
-  - cn|6429|puddincat07@Telegram
-  - gb|952e|puddincat07@Telegram
-  - at|3a9a|puddincat07@Telegram
-  - xx|cbfd|puddincat07@Telegram
-  - xx|ddbd|puddincat07@Telegram
-  - us|dd8c|puddincat07@Telegram
-  - fr|cbec|puddincat07@Telegram
-  - xx|3758|puddincat07@Telegram
-  - xx|d9d4|puddincat07@Telegram
-  - xx|1fcd|puddincat07@Telegram
-  - tr|1b4d|puddincat07@Telegram
+  - xx|52a9|puddincat07@Telegram
+  - lt|b722|puddincat07@Telegram
+  - xx|1708|puddincat07@Telegram
+  - xx|0615|puddincat07@Telegram
+  - ca|7922|puddincat07@Telegram
+  - lt|9e9e|puddincat07@Telegram
+  - nl|9857|puddincat07@Telegram
+  - us|cb56|puddincat07@Telegram
+  - sg|8c99|puddincat07@Telegram
+  - ru|d180|puddincat07@Telegram
+  - ru|31ad|puddincat07@Telegram
+  - cy|4c39|puddincat07@Telegram
+  - xx|970b|puddincat07@Telegram
+  - ca|933a|puddincat07@Telegram
+  - us|0f45|puddincat07@Telegram
+  - gb|ad4d|puddincat07@Telegram
+  - us|12ef|puddincat07@Telegram
+  - es|7a35|puddincat07@Telegram
+  - xx|8d43|puddincat07@Telegram
+  - us|39c3|puddincat07@Telegram
+  - xx|0d0b|puddincat07@Telegram
+  - us|99f8|puddincat07@Telegram
+  - us|d527|puddincat07@Telegram
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
@@ -298,80 +319,86 @@ proxy-groups:
   proxies:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
-  - xx|a89b|puddincat07@Telegram
-  - lt|e58d|puddincat07@Telegram
-  - us|282b|puddincat07@Telegram
-  - xx|ecad|puddincat07@Telegram
-  - xx|fab6|puddincat07@Telegram
-  - ae|d935|puddincat07@Telegram
-  - gb|8435|puddincat07@Telegram
-  - gb|ad3e|puddincat07@Telegram
-  - de|a9c4|puddincat07@Telegram
-  - us|c6fd|puddincat07@Telegram
-  - cn|6429|puddincat07@Telegram
-  - gb|952e|puddincat07@Telegram
-  - at|3a9a|puddincat07@Telegram
-  - xx|cbfd|puddincat07@Telegram
-  - xx|ddbd|puddincat07@Telegram
-  - us|dd8c|puddincat07@Telegram
-  - fr|cbec|puddincat07@Telegram
-  - xx|3758|puddincat07@Telegram
-  - xx|d9d4|puddincat07@Telegram
-  - xx|1fcd|puddincat07@Telegram
-  - tr|1b4d|puddincat07@Telegram
+  - xx|52a9|puddincat07@Telegram
+  - lt|b722|puddincat07@Telegram
+  - xx|1708|puddincat07@Telegram
+  - xx|0615|puddincat07@Telegram
+  - ca|7922|puddincat07@Telegram
+  - lt|9e9e|puddincat07@Telegram
+  - nl|9857|puddincat07@Telegram
+  - us|cb56|puddincat07@Telegram
+  - sg|8c99|puddincat07@Telegram
+  - ru|d180|puddincat07@Telegram
+  - ru|31ad|puddincat07@Telegram
+  - cy|4c39|puddincat07@Telegram
+  - xx|970b|puddincat07@Telegram
+  - ca|933a|puddincat07@Telegram
+  - us|0f45|puddincat07@Telegram
+  - gb|ad4d|puddincat07@Telegram
+  - us|12ef|puddincat07@Telegram
+  - es|7a35|puddincat07@Telegram
+  - xx|8d43|puddincat07@Telegram
+  - us|39c3|puddincat07@Telegram
+  - xx|0d0b|puddincat07@Telegram
+  - us|99f8|puddincat07@Telegram
+  - us|d527|puddincat07@Telegram
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - xx|a89b|puddincat07@Telegram
-  - lt|e58d|puddincat07@Telegram
-  - us|282b|puddincat07@Telegram
-  - xx|ecad|puddincat07@Telegram
-  - xx|fab6|puddincat07@Telegram
-  - ae|d935|puddincat07@Telegram
-  - gb|8435|puddincat07@Telegram
-  - gb|ad3e|puddincat07@Telegram
-  - de|a9c4|puddincat07@Telegram
-  - us|c6fd|puddincat07@Telegram
-  - cn|6429|puddincat07@Telegram
-  - gb|952e|puddincat07@Telegram
-  - at|3a9a|puddincat07@Telegram
-  - xx|cbfd|puddincat07@Telegram
-  - xx|ddbd|puddincat07@Telegram
-  - us|dd8c|puddincat07@Telegram
-  - fr|cbec|puddincat07@Telegram
-  - xx|3758|puddincat07@Telegram
-  - xx|d9d4|puddincat07@Telegram
-  - xx|1fcd|puddincat07@Telegram
-  - tr|1b4d|puddincat07@Telegram
+  - xx|52a9|puddincat07@Telegram
+  - lt|b722|puddincat07@Telegram
+  - xx|1708|puddincat07@Telegram
+  - xx|0615|puddincat07@Telegram
+  - ca|7922|puddincat07@Telegram
+  - lt|9e9e|puddincat07@Telegram
+  - nl|9857|puddincat07@Telegram
+  - us|cb56|puddincat07@Telegram
+  - sg|8c99|puddincat07@Telegram
+  - ru|d180|puddincat07@Telegram
+  - ru|31ad|puddincat07@Telegram
+  - cy|4c39|puddincat07@Telegram
+  - xx|970b|puddincat07@Telegram
+  - ca|933a|puddincat07@Telegram
+  - us|0f45|puddincat07@Telegram
+  - gb|ad4d|puddincat07@Telegram
+  - us|12ef|puddincat07@Telegram
+  - es|7a35|puddincat07@Telegram
+  - xx|8d43|puddincat07@Telegram
+  - us|39c3|puddincat07@Telegram
+  - xx|0d0b|puddincat07@Telegram
+  - us|99f8|puddincat07@Telegram
+  - us|d527|puddincat07@Telegram
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - xx|a89b|puddincat07@Telegram
-  - lt|e58d|puddincat07@Telegram
-  - us|282b|puddincat07@Telegram
-  - xx|ecad|puddincat07@Telegram
-  - xx|fab6|puddincat07@Telegram
-  - ae|d935|puddincat07@Telegram
-  - gb|8435|puddincat07@Telegram
-  - gb|ad3e|puddincat07@Telegram
-  - de|a9c4|puddincat07@Telegram
-  - us|c6fd|puddincat07@Telegram
-  - cn|6429|puddincat07@Telegram
-  - gb|952e|puddincat07@Telegram
-  - at|3a9a|puddincat07@Telegram
-  - xx|cbfd|puddincat07@Telegram
-  - xx|ddbd|puddincat07@Telegram
-  - us|dd8c|puddincat07@Telegram
-  - fr|cbec|puddincat07@Telegram
-  - xx|3758|puddincat07@Telegram
-  - xx|d9d4|puddincat07@Telegram
-  - xx|1fcd|puddincat07@Telegram
-  - tr|1b4d|puddincat07@Telegram
+  - xx|52a9|puddincat07@Telegram
+  - lt|b722|puddincat07@Telegram
+  - xx|1708|puddincat07@Telegram
+  - xx|0615|puddincat07@Telegram
+  - ca|7922|puddincat07@Telegram
+  - lt|9e9e|puddincat07@Telegram
+  - nl|9857|puddincat07@Telegram
+  - us|cb56|puddincat07@Telegram
+  - sg|8c99|puddincat07@Telegram
+  - ru|d180|puddincat07@Telegram
+  - ru|31ad|puddincat07@Telegram
+  - cy|4c39|puddincat07@Telegram
+  - xx|970b|puddincat07@Telegram
+  - ca|933a|puddincat07@Telegram
+  - us|0f45|puddincat07@Telegram
+  - gb|ad4d|puddincat07@Telegram
+  - us|12ef|puddincat07@Telegram
+  - es|7a35|puddincat07@Telegram
+  - xx|8d43|puddincat07@Telegram
+  - us|39c3|puddincat07@Telegram
+  - xx|0d0b|puddincat07@Telegram
+  - us|99f8|puddincat07@Telegram
+  - us|d527|puddincat07@Telegram
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
@@ -387,27 +414,29 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - xx|a89b|puddincat07@Telegram
-  - lt|e58d|puddincat07@Telegram
-  - us|282b|puddincat07@Telegram
-  - xx|ecad|puddincat07@Telegram
-  - xx|fab6|puddincat07@Telegram
-  - ae|d935|puddincat07@Telegram
-  - gb|8435|puddincat07@Telegram
-  - gb|ad3e|puddincat07@Telegram
-  - de|a9c4|puddincat07@Telegram
-  - us|c6fd|puddincat07@Telegram
-  - cn|6429|puddincat07@Telegram
-  - gb|952e|puddincat07@Telegram
-  - at|3a9a|puddincat07@Telegram
-  - xx|cbfd|puddincat07@Telegram
-  - xx|ddbd|puddincat07@Telegram
-  - us|dd8c|puddincat07@Telegram
-  - fr|cbec|puddincat07@Telegram
-  - xx|3758|puddincat07@Telegram
-  - xx|d9d4|puddincat07@Telegram
-  - xx|1fcd|puddincat07@Telegram
-  - tr|1b4d|puddincat07@Telegram
+  - xx|52a9|puddincat07@Telegram
+  - lt|b722|puddincat07@Telegram
+  - xx|1708|puddincat07@Telegram
+  - xx|0615|puddincat07@Telegram
+  - ca|7922|puddincat07@Telegram
+  - lt|9e9e|puddincat07@Telegram
+  - nl|9857|puddincat07@Telegram
+  - us|cb56|puddincat07@Telegram
+  - sg|8c99|puddincat07@Telegram
+  - ru|d180|puddincat07@Telegram
+  - ru|31ad|puddincat07@Telegram
+  - cy|4c39|puddincat07@Telegram
+  - xx|970b|puddincat07@Telegram
+  - ca|933a|puddincat07@Telegram
+  - us|0f45|puddincat07@Telegram
+  - gb|ad4d|puddincat07@Telegram
+  - us|12ef|puddincat07@Telegram
+  - es|7a35|puddincat07@Telegram
+  - xx|8d43|puddincat07@Telegram
+  - us|39c3|puddincat07@Telegram
+  - xx|0d0b|puddincat07@Telegram
+  - us|99f8|puddincat07@Telegram
+  - us|d527|puddincat07@Telegram
   type: select
 rules:
 - "DOMAIN-SUFFIX,local,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
